@@ -7,7 +7,7 @@
 ### 文档
 #### 联动器
 - 效果
-[两级联动和三级联动](https://http://zenquan.github.io/psion-plugins/address/index.html)
+[两级联动和三级联动](https://zenquan.github.io/psion-plugins/address/index.html)
 
 - 安装
 ```js
@@ -28,9 +28,9 @@
     pro: document.querySelector('#pro'),
     city: document.querySelector('#city'),
     area: document.querySelector('#area'),
-    defaultPro: '浙江省',
-    defaultCity: '杭州市',
-    defaultArea: '淳安县',
+    defaultPro: '广东省',
+    defaultCity: '深圳市',
+    defaultArea: '罗湖区',
   });
   ```
 *中间发现了select元素中可通过dom获取selectedIndex属性*
