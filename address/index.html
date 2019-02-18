@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <p>省市两级联动</p>
+  <div>
+    <select id="pro1"></select>
+    <select id="city1"></select>
+  </div>
+  <p>省市区三级联动</p>
+  <div>
+    <select id="pro"></select>
+    <select id="city"></select>
+    <select id=area></select>
+  </div>
+  <style>
+    select {
+      width: 100px;
+      height: 30px;
+      border-radius: 4px;
+      color: #333; 
+    }
+  </style>
+  <script src="./address.js"></script>
+  <script src="./address-plugin.js"></script>
+  <script>
+    new address({
+      pro: document.querySelector('#pro1'),
+      city: document.querySelector('#city1'),
+    });
+    new address({
+      pro: document.querySelector('#pro'),
+      city: document.querySelector('#city'),
+      area: document.querySelector('#area'),
+      defaultPro: '浙江省',
+      defaultCity: '杭州市',
+      defaultArea: '淳安县',
+    });
+  </script>
+</body>
+
+</html>
