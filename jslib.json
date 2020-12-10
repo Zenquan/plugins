@@ -1,0 +1,11 @@
+{
+    "name": "psion-plugins",
+    "npmname": "psion-plugins",
+    "umdname": "psion-plugins",
+    "username": "zenquan",
+    "type": "js",
+    "module": "umd,esm,commonjs",
+    "test": "mocha",
+    "lang": "zh",
+    "version": "1.6.0"
+}
