@@ -1,7 +1,12 @@
-// const upyunUpload = require('./node_modules/vue-cli-plugin-upyun-upload')
+const path = require('path');
 
 module.exports = {
-  pluginOptions: {
-    // upyunUpload
+  
+  configureWebpack: {
+		resolve: {
+			alias: {
+        '@dist': path.resolve(__dirname, '../../dist'),
+      }
+    }
   }
 }

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import PsionPlugins from '../../../../dist/index.esm';
+import PsionPlugins from '@dist/index.esm';
 export default {
   name: 'Address',
   mounted() {
