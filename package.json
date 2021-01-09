@@ -1,6 +1,6 @@
 {
-  "name": "psion-plugins",
-  "version": "v.1.0.1",
+  "name": "@jomsou/plugins",
+  "version": "v1.0.1",
   "description": "jslib最好用的js库脚手架",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
@@ -60,5 +60,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2"
+  },
+  "publishConfig": {
+    "registry": "http://112.74.33.210:4873"
   }
 }
