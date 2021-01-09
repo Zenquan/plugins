@@ -1,11 +1,11 @@
-# [Address](https://github.com/zenquan/Address)
+# [psion-plugins](https://github.com/zenquan/psion-plugins)
 [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zenquan/Address/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/zenquan/Address.svg?branch=master)](https://travis-ci.org/zenquan/Address)
-[![Coveralls](https://img.shields.io/coveralls/zenquan/Address.svg)](https://coveralls.io/github/zenquan/Address)
-[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/address)
-[![NPM downloads](http://img.shields.io/npm/dm/Address.svg?style=flat-square)](http://www.npmtrends.com/address)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/zenquan/Address.svg)](http://isitmaintained.com/project/zenquan/Address "Percentage of issues still open")
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zenquan/psion-plugins/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/zenquan/psion-plugins.svg?branch=master)](https://travis-ci.org/zenquan/psion-plugins)
+[![Coveralls](https://img.shields.io/coveralls/zenquan/psion-plugins.svg)](https://coveralls.io/github/zenquan/psion-plugins)
+[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/psion-plugins)
+[![NPM downloads](http://img.shields.io/npm/dm/psion-plugins.svg?style=flat-square)](http://www.npmtrends.com/psion-plugins)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/zenquan/psion-plugins.svg)](http://isitmaintained.com/project/zenquan/psion-plugins "Percentage of issues still open")
 
 最好用的 `JS|TS` 第三方库脚手架
 
@@ -44,25 +44,25 @@
 通过npm下载安装代码
 
 ```bash
-$ npm install --save address
+$ npm install --save psion-plugins
 ```
 
 如果你是node环境
 
 ```js
-var base = require('address');
+var base = require('psion-plugins');
 ```
 
 如果你是webpack等环境
 
 ```js
-import base from 'address';
+import base from 'psion-plugins';
 ```
 
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/address/dist/index.aio.js'], function (base) {
+requirejs(['node_modules/psion-plugins/dist/index.aio.js'], function (base) {
     // xxx
 })
 ```
@@ -70,7 +70,7 @@ requirejs(['node_modules/address/dist/index.aio.js'], function (base) {
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/address/dist/index.aio.js"></script>
+<script src="node_modules/psion-plugins/dist/index.aio.js"></script>
 ```
 
 ## :bookmark_tabs: 文档
@@ -111,7 +111,7 @@ $ npm publish
 
 ## 贡献者列表
 
-[contributors](https://github.com/zenquan/Address/graphs/contributors)
+[contributors](https://github.com/zenquan/psion-plugins/graphs/contributors)
 
 ## :gear: 更新日志
 [CHANGELOG.md](./CHANGELOG.md)
