@@ -46,7 +46,7 @@
     "babel-plugin-istanbul": "5.1.0",
     "coveralls": "3.0.2",
     "cross-env": "5.2.0",
-    "docsify": "^4.11.6",
+    "docsify": "^4.12.0",
     "es5-shim": "4.5.10",
     "eslint": "^5.15.1",
     "expect.js": "0.3.1",
